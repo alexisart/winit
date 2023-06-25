@@ -69,6 +69,7 @@ softbuffer = "0.3.0"
 [target.'cfg(target_os = "android")'.dependencies]
 # Coordinate the next winit release with android-ndk-rs: https://github.com/rust-windowing/winit/issues/1995
 android-activity = { git = "https://github.com/alexisart/android-activity.git" }
+# android-activity = { path = "../android-activity/android-activity" }
 ndk = "0.7.0"
 ndk-sys = "0.4.0"
 
